@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orderingFromXml="true" android:title="@string/wallpaper_settings"
+	android:key="wallpaper_settings">
+
+	<Preference android:title="High Battery Smiley Color"
+		android:key="high_smiley_color" android:summary="The color of the smileys when the battery level is high."></Preference>
+	<Preference android:title="Medium Battery Smiley Color"
+		android:key="medium_smiley_color"
+		android:summary="The color of the smileys when the battery level is medium."></Preference>
+	<Preference android:title="Low Battery Smiley Color"
+		android:key="low_smiley_color" android:summary="The color of the smileys when the battery level is low."></Preference>
+	<Preference android:title="Very Low Battery Smiley Color"
+		android:key="empty_smiley_color"
+		android:summary="The color of the smileys when the battery level is very low."></Preference>
+
+	<Preference android:title="Background Color" android:key="background_color"
+		android:summary="The color of the background."></Preference>
+
+	<PreferenceCategory android:title="Battery Level Thresholds">
+		<com.builtclean.android.preferences.SeekBarPreference
+			android:key="high_smiley_level" android:title="High"
+			android:defaultValue="70" />
+
+		<com.builtclean.android.preferences.SeekBarPreference
+			android:key="medium_smiley_level" android:title="Medium"
+			android:defaultValue="30" />
+
+		<com.builtclean.android.preferences.SeekBarPreference
+			android:key="low_smiley_level" android:title="Low"
+			android:defaultValue="20" />
+
+	</PreferenceCategory>
+
+</PreferenceScreen>

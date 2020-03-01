@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">PowerSmileys Live Wallpaper</string>
+	
+	<string name="wallpaper_description">A live wallpaper which keeps track of your battery
+		life with tiny smiley faces.</string>
+
+	<string name="wallpaper_settings">Settings</string>
+
+	<string name="settings_bg_color_confirm">Confirm</string>
+
+	<string name="settings_default_color_confirm">Default Color</string>
+
+</resources>
